@@ -168,6 +168,9 @@ p {
   background: #fe6b90;
   font-size: 19px;
 }
+.herodes img {
+  margin: 10px;
+}
 
 .logo {
   text-decoration: none;
@@ -189,4 +192,122 @@ p {
   border-radius: 12px;
   background: #fe6b90;
   font-size: 19px;
+}
+
+.big-fitur {
+  display: flex;
+  margin-right: 30px;
+  gap: 40px;
+  position: relative;
+  bottom: 60px;
+  left: 60px;
+}
+
+.color1 {
+  background: #fffcf6 !important;
+}
+
+.fitur {
+  display: flex;
+  background-color: #effefb;
+  width: 320px;
+  height: 100px;
+  padding: 20px 50px;
+  border: 1px solid #effefb;
+  align-items: center;
+  box-shadow: -3px 23px 16px 19px rgba(0, 0, 0, 0.06);
+  -webkit-box-shadow: -3px 23px 16px 19px rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: -3px 23px 16px 19px rgba(0, 0, 0, 0.06);
+}
+.fitur img {
+  overflow: hidden;
+  width: 70px;
+  margin-right: 20px;
+}
+.fitur .fitur-text {
+  display: block;
+  align-items: center;
+}
+.fitur .fitur-text h3 {
+  font-size: 1.2em;
+}
+
+.js {
+  justify-content: space-between;
+}
+
+.big-populer {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.populer {
+  border: 1px solid #effefb;
+  text-align: center;
+  background-color: #effefb;
+  padding: 40px 80px;
+}
+.populer img {
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+}
+.populer h2 {
+  font-size: 1.6em;
+}
+.populer P {
+  font-size: 1.4em;
+  color: rgb(189, 189, 189);
+}
+
+.course {
+  background-image: url("https://dreamslms.dreamguystech.com/assets/img/banner.png");
+  background-size: cover;
+  height: 1500px;
+}
+
+.course-des h3 {
+  color: rgb(224, 53, 53);
+  font-size: 21px;
+}
+.course-des h2 {
+  font-size: 2.5em;
+}
+.course-des P {
+  font-size: 1.5em;
+}
+
+.all-course a {
+  border: 3px solid plum;
+  padding: 20px 60px;
+  border-radius: 30px;
+}
+
+.box1 {
+  display: flex;
+  align-items: center;
+}
+.box1 img {
+  overflow: hidden;
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.box {
+  border: 1px solid white;
+  background: white;
+  width: 370px;
+  padding: 40px;
+}
+.box span {
+  color: orange;
+  font-size: 21px;
+}
+.box a {
+  border: 3px solid plum;
+  padding: 15px 30px;
+  border-radius: 30px;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
